@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gainsboro;
+    height: auto;
+}
+
+header img {
+    border-radius: 55%;
+}
+
+span {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Piedra', cursive;
+    animation: aagepiche 2s linear infinite;
+}
+
+@keyframes aagepiche {
+    from {
+        padding-left: 40px;
+    }
+    to {
+        padding-right: 40px;
+    }
+}
+
+nav a {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Piedra', cursive;
+    font-weight: bold;
+}
+
+.program {
+    background-color: lightblue;
+}
+
+.program h1 {
+    display: grid;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+.program h5 {
+    display: grid;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+.program p {
+    display: grid;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Piedra', cursive;
+    margin-left: 20px;
+    text-size-adjust: none;
+    text-size-adjust: auto;
+}
+
+section {
+    background-color: silver;
+}
+
+.about {
+    background-color: rgb(8, 33, 49);
+    margin-top: 20px;
+}
+
+.about h1 {
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.about p {
+    color: rgb(149, 221, 67);
+    text-shadow: 2px 2px black;
+    font-weight: 50;
+}
+
+footer {
+    background-color: lightsalmon;
+}
+
+footer p {
+    color: black;
+    text-shadow: 2px 2px rgb(212, 137, 23);
+    margin-top: 16px;
+}
+
+footer .icon {
+    margin-top: 10px;
+    margin-left: 5cm;
+    font-size: x-large;
+}
+
+footer .insta {
+    margin-left: 1.5cm;
+    color: rgb(221, 27, 205);
+}
+
+footer .fb {
+    margin-left: 5%;
+    color: rgb(27, 79, 221);
+}
+
+footer a:hover {
+    outline-style: none;
+}
+
+.social_network {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    top: 90%;
+    display: table-column;
+}
+
+.insta_icon {
+    margin: 10px 0;
+}
+
+#myBtn2 {
+    width: 40px;
+    height: 40px;
+    border-right: 50%;
+    background: linear-gradient(to bottom, rgb(173, 8, 104) 0%, white 100%);
+    border-radius: 50%;
+}
+
+#myBtn2:hover {
+    background: linear-gradient(to bottom, white 0%, rgb(173, 8, 104) 100%);
+}
+
+.recipe_img {
+    margin: 50px 10px 10px 15px;
+}

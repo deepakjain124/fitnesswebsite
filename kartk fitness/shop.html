@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/css/animate.min.css">
+    <title>shop</title>
+    <style>
+        header {
+            background-color: gainsboro;
+            height: auto;
+        }
+        
+        header img {
+            border-radius: 55%;
+        }
+        
+        span {
+            font-family: 'Anton', sans-serif;
+            font-family: 'Piedra', cursive;
+            animation: aagepiche 2s linear infinite;
+            font-weight: bold;
+        }
+        
+        @keyframes aagepiche {
+            from {
+                padding-left: 40px;
+            }
+            to {
+                padding-right: 40px;
+            }
+        }
+        
+        nav a {
+            color: rgb(2, 2, 2);
+            font-family: 'Anton', sans-serif;
+            font-family: 'Piedra', cursive;
+            font-weight: bold;
+        }
+        
+        .about-main {
+            background-color: rgb(97, 18, 18);
+            padding: 140px 70px;
+        }
+        
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: auto;
+        }
+        
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        
+        .about-content {
+            background-color: #ffb504;
+            padding: 40px;
+        }
+        
+        .about-content h2 {
+            font-size: 45px;
+            text-transform: uppercase;
+        }
+        
+        .about-content p {
+            font-size: 21px;
+            color: #2f3035;
+            font-weight: 400;
+            margin-top: 20px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-black-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="image/body.jpeg" alt="logo" width="50px" height="40px">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                <span class="ml-3 text-l"><h1 class="animated infinite heartBeat">TRAIN WITH <strong>KRTK</strong> </h1></span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center menu">
+                <a href="OT.html" class="mr-5 hover:text-gray-900">Online Training</a>
+                <a href="shop.html" class="mr-5 hover:text-gray-900">Shop</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <section style="background-color: black;" class="text-gray-700 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto sm:h-auto h-64 object-cover object-center rounded" src="image/fusion.png">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+
+                    <h1 style="font-weight:1000; font-size:50PX; font-style: italic; color: rgb(172, 120, 10);" class="text-gray-900 text-3xl title-font font-medium mt-20">GOLD SERIES</h1>
+                    <div class="flex mt-10">
+
+                        <p style="font-size: x-large; color: whitesmoke; " class="leading-relaxed">Muscle science gold series is a line of food supplements consists of a range of products aimed at physical activity and athletes and developed with the latest technology by the multidisciplinary team of professionals of the renowned
+                            company..
+                        </p>
+
+                    </div>
+                </div>
+    </section>
+    <section style="background-color: rgb(226, 214, 198);" class="text-gray-700 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6  mb-6 lg:mb-0">
+                    <h1 style="font-weight:1000; font-size:50PX; font-style: italic; color: rgb(10, 148, 172);" class="text-gray-900 text-3xl title-font font-medium mt-20">WHITE SERIES</h1>
+                    <div class="flex mt-10">
+                        <p style="font-size: x-large; color: rgb(0, 0, 0); " class="leading-relaxed mb-4">The aim of the muscle science White Series is to formulate and create the most effective products for athletes of all disciplines in mind. It does not matter whether You are an MMA fighter, bodybuilder, cyclist, basketball or tennis
+                            player.
+                        </p>
+                    </div>
+                </div>
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto sm:h-auto h-64 object-cover object-center rounded" src="image/white-series.png">
+            </div>
+        </div>
+    </section>
+    <section style="background-color:rgb(255, 145, 0);" class="text-gray-700 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto sm:h-auto h-64 object-cover object-center rounded" src="image/premium-series.png">
+                <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+
+                    <h1 style="font-weight:1000; font-size:50PX; font-style:italic; color: black;" class="text-gray-900 text-3xl title-font font-medium mt-20">PREMIUM SERIES</h1>
+                    <div class="flex mt-10">
+
+                        <p style="font-size: x-large; color:black; " class="leading-relaxed">Premium Series always seeks to innovate and develop high quality products and technology, so that all people have a better quality of life and health, whether they are sports or not.
+                        </p>
+
+                    </div>
+                </div>
+    </section>
+    <div class=".about-main">
+        <div class="container">
+            <div class="row">
+                <div class="about-content">
+                    <h2 class="wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">ABOUT US</h2>
+                    <p class="wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Our brand <strong>Muscle Science</strong> is not made to be average. And neither you should. Muscle Science is not just for the physical gains, it’s about Innovation, Science, development and creation. We understand supplement science
+                        from the lab bench to the gym bench.</p>
+                    <p class="wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">We're always doing research to test new formulas and improve the current ones, if possible. We are never satisfied from existing status, so we endure day in and day out to provide revolutionary products out to the great athletes like
+                        you.
+                    </p>
+                    <p class="wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Established in the INDIA in 2014 but, and offers the best business opportunities to its partner, and the best products to its customers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
